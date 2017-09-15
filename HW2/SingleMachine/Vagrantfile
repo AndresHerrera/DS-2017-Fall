@@ -4,6 +4,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "webserver" do |webserver|
   	webserver.vm.box = "hashicorp/precise64"
   	webserver.vm.network "forwarded_port", guest:80, host:8080
-  	webserver.vm.provision "shell", path: "script.sh"
+  	webserver.vm.provision "shell", path: "script_web.sh"
    end
 end

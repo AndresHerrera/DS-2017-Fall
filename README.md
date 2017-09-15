@@ -12,6 +12,10 @@ https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/vm-sandbox-unix.sh
 <br>
 <h2><b>Homework 2</b></h2>
 - Simple Vagrant - development environments 
-<b>+ Single Ubuntu Machine + PostgreSQL </b>
 
+<b>+ Single Ubuntu Machine + PostgreSQL </b>
+<a href="https://asciinema.org/a/3fT2Fy5xEwd4LdAEcpZj4rqdM" target="_blank"><img src="https://asciinema.org/a/3fT2Fy5xEwd4LdAEcpZj4rqdM.png" width="400" /></a>
+<br> 
+- vagrant up 
+- psql -U vagrant -p 5433 -h localhost -d dbtest
 <b> + Two environmets (web): Apache Server (db): PostgreSQL Server </b> 

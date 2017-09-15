@@ -1,0 +1,9 @@
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.define "dbserver" do |dbserver|
+  	dbserver.vm.box = "hashicorp/precise64"
+  	dbserver.vm.network "forwarded_port", guest:5432, host:5433
+  	dbserver.vm.provision "shell", path: "script_db.sh"
+   end
+end
