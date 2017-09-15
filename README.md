@@ -10,3 +10,8 @@ https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/wm-commander-dos.b
 https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/vm-sandbox-unix.sh<br>
 <a href="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH" target="_blank"><img src="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH.png" width="400"/></a>
 <br>
+<h2><b>Homework 2</b></h2>
+- Simple Vagrant - development environments 
+<b>+ Single Ubuntu Machine + PostgreSQL </b>
+
+<b> + Two environmets (web): Apache Server (db): PostgreSQL Server </b> 
