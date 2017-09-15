@@ -1,5 +1,11 @@
 #!/bin/sh
-
+#Author: Andres Herrera 
+#Mail: fabio.herrera@correounivalle.edu.co
+#Course: Fundamental of Distributed Systems (DS-2017-Fall)
+#Teacher: John Sanabria - john.sanabria@correounivalle.edu.co
+#Homework 1
+#Notes:
+#This bash script is just for academic propouses
 clear
 
 print_error()
