@@ -8,5 +8,5 @@ https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1
 <img src="HW1/snap1.png" width="500"/>
 <b>+ LINUX Version using VBoxmanage</b>
 https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/vm-sandbox-unix.sh<br>
-<a href="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH" target="_blank"><img src="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH.png" /></a>
+<a href="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH" target="_blank"><img src="https://asciinema.org/a/CK8jAoCh3obyAugtv5CQSMeWH.png" width="500"/></a>
 <br>
