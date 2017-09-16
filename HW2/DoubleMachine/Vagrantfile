@@ -1,0 +1,24 @@
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.define "web" do |web|
+  	web.vm.box = "hashicorp/precise64"
+        web.vm.provider "virtualbox" do |vb|
+            vb.name="web"
+            vb.cpus=1
+            vb.memory=1024
+        end
+  	web.vm.network "forwarded_port", guest:80, host:8080
+  	web.vm.provision "shell", path: "script_web.sh"
+   end
+   config.vm.define "db" do |db|
+        db.vm.box = "hashicorp/precise64"
+        db.vm.provider "virtualbox" do |vb|
+            vb.name="db"
+            vb.cpus=1
+            vb.memory=1024
+        end
+        db.vm.network "forwarded_port", guest:5432, host:5433
+        db.vm.provision "shell", path: "script_db.sh"
+   end
+end

@@ -18,9 +18,21 @@ Homeworks for DS-2017-Fall (Univalle)
 <a href="https://asciinema.org/a/3fT2Fy5xEwd4LdAEcpZj4rqdM" target="_blank"><img src="https://asciinema.org/a/3fT2Fy5xEwd4LdAEcpZj4rqdM.png" width="400" /></a>
 <br> 
 - vagrant up <br> 
+* postgresql server guest port:5432 -> host forwarding port:5433 <br>
 - psql -U vagrant -p 5433 -h localhost -d dbtest <br>
 - ?password: vagrant <br>
 <br>
 <b> + Two environmets (web): Apache Server (db): PostgreSQL Server </b>
 <br> 
+<a href="https://asciinema.org/a/bHplww56WxWXnRHvYd80aV4sq" target="_blank"><img src="https://asciinema.org/a/bHplww56WxWXnRHvYd80aV4sq.png" width="400"/></a>
+<br>
+- vagrant up <br>
+- vagrant ssh web <br> 
+- vagrant ssh db <br>
+* apache server guest port:80 -> host forwarding port:8080 <br>
+- lynx http://localhost:8080 <br>
+* postgresql server guest port:5432 -> host forwarding port:5433 <br>
+- psql -U vagrant -p 5433 -h localhost -d dbtest <br>
+- ?password: vagrant <br>
+<br>
 
