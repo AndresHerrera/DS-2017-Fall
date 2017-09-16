@@ -4,7 +4,7 @@ Homeworks for DS-2017-Fall (Univalle)
 <h2><b>Homework 1: Simple Bash scripting for Virtual Machines</b></h2>
 <b>+ MS-DOS Version using VBoxManage</b>
 <br>
-* source: https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/wm-commander-dos.bat
+* source: https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/vm-commander-dos.bat
 <img src="HW1/snap1.png" width="400"/>
 <b>+ LINUX Version using VBoxmanage</b><br>
 * source: https://github.com/AndresHerrera/DS-2017-Fall/tree/master/HW1/vm-sandbox-unix.sh<br>
